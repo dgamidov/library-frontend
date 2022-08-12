@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy-test": "aws --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive --exclude .DS_Store dist/ s3://library-test/",
+    "deploy-prod": "aws --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive --exclude .DS_Store dist/ s3://library/"
   },
   "dependencies": {
     "core-js": "^3.8.3",
