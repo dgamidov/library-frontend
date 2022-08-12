@@ -1,5 +1,5 @@
 <template>
-  <div id="viewHome">
+  <div id="viewCSBooks">
     <h1>Книги по CS</h1>
   </div>
 </template>

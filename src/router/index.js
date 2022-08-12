@@ -1,17 +1,17 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 
-import Home from '../views/Home.vue'
-import CSBooks from '../views/CSBooks.vue'
+import HomeView from '../views/HomeView.vue'
+import CSBooksView from '../views/CSBooksView.vue'
 
 const routes = [
   {
     path: '/',
-    component: Home,
+    component: HomeView,
     meta: { title: 'Главная' }
   },
   {
     path: '/cs-books',
-    component: CSBooks,
+    component: CSBooksView,
     meta: { title: 'Книги по CS' }
   },
 ]
