@@ -1,12 +1,15 @@
 <template>
-  <div id="viewCSBooks">
-    <h1>Книги по CS</h1>
-  </div>
+  <v-container id="viewCSBooks">
+    <div class="text-h2">Книги по CS</div>
+  </v-container>
 </template>
 
 <script>
-export default {
-  name: "CSBooks",
-  components: []
-};
+  export default {
+    name: 'CS Books',
+
+    data: () => ({
+      tab: null,
+    }),
+  }
 </script>
