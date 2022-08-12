@@ -1,0 +1,419 @@
+name: Computer Science
+children:
+  - name: Обзор
+    children:
+      - name: Теоретический минимум по CS. Все что нужно программисту и разработчику
+        author: Фило Ф.В.
+        link: https://bmm.ru/books/details/190677
+        status: прочитал
+      - name: Теоретический минимум по CS. Сети, криптография и data science
+        author: Фило Ф.В.
+        link: https://bmm.ru/books/details/196681
+        status: прочитал
+
+  - name: Железо
+    children:
+      - name: Архитектура компьютера
+        author: Э. Таненбаум, Т. Остин
+        link: https://bmm.ru/books/details/141325/
+        status: читаю
+      - name: Цифровая схемотехника и архитектура компьютера
+        author: Д. Харрис, С. Харрис
+        link: https://bmm.ru/books/details/41101/
+        status: купил
+      - name: "Цифровая схемотехника и архитектура компьютера: RISC-V"
+        author: Д. Харрис, С. Харрис
+        link: https://bmm.ru/books/details/164705/
+        status: купил
+      - name: "Цифровая схемотехника и архитектура компьютера: ARM"
+        author: Д. Харрис, С. Харрис
+        link: https://bmm.ru/books/details/55422/
+        status: купил
+      - name: Занимательная электроника
+        author: Ю. Ревич
+        link: https://bmm.ru/books/details/71582/
+
+  - name: Операционные системы
+    children:
+      - name: Современные операционные системы
+        author: Э. Таненбаум
+        link: https://www.litres.ru/endru-tanenbaum/sovremennye-operacionnye-sistemy-42227045
+        status: купил
+      - name: Внутреннее устройство Linux
+        author: Б. Уорд
+        link: https://www.piter.com/collection/linux/product/vnutrennee-ustroystvo-linux-2
+        status: купил
+      - name: Linux Библия исчерпывающее руководство
+        author: К. Негус
+        link: https://www.moscowbooks.ru/book/1105815/
+        status: купил
+
+  - name: Базы данных
+    children:
+      - name: Введение в системы баз данных
+        author: Дейт
+        link: https://bmm.ru/books/details/194675/
+        status: купил
+      - name: Oracle для профессионалов
+        author: Т. Кайт
+        link: https://bmm.ru/books/details/22655/
+        status: прочитал
+
+  - name: Управление
+    children:
+      - name: Как пасти котов. Наставление для программистов, руководящих другими программистами
+        author: Д. Рейнвотер
+        link: https://bmm.ru/books/details/141338/
+        status: прочитал
+      - name: Мифический человеко-месяц
+        author: Ф. Брукс
+        link: https://bmm.ru/books/details/120501/
+        status: купил
+      - name: Балдеющие от адреналина и зомбированные шаблонами
+        author: Т. ДеМарко
+        link: https://www.combook.ru/product/10078763/
+        status: прочитал
+
+  - name: Математика
+    children:
+      - name: Конкретная математика
+        author: Д. Кнут
+        link: https://bmm.ru/books/details/53695/
+        status: читаю
+
+  - name: Алгоритмы
+    children:
+      - name: Грокаем алгоритмы
+        author: А. Бхаргава
+        link: https://bmm.ru/books/details/200209
+        status: прочитал
+      - name: Алгоритмы. Руководство по разработке
+        author: С. Скиена
+        link: https://bmm.ru/books/details/351403/
+        status: купил
+      - name: Алгоритмы на Java
+        author: Р. Сэджвик
+        link: https://bmm.ru/books/details/61992/
+        status: купил
+      - name: Алгоритмы. Построение и анализ
+        author: Т. Кормен, Ч. Лейзерсон, Р. Ривест, К. Штайн
+        link: https://bmm.ru/books/details/54497/
+
+  - name: Программирование
+    children:
+      - name: Совершенный код. Мастер-класс
+        author: С. Макконнелл
+        link: https://bmm.ru/books/details/75170/
+        status: прочитал
+      - name: Идеальный программист. Как стать профессионалом разработки ПО
+        author: Р. Мартин
+        link: https://bmm.ru/books/details/351483/
+        status: прочитал
+      - name: Программист прагматик. Путь от подмастерья к мастеру
+        author: Э Хант
+        link: https://bmm.ru/books/details/173053/
+        status: купил
+      - name: Делай как в Google
+        author: Т. Винтерс, Т. Маншрек, Х. Райт
+        link: https://bmm.ru/books/details/76013/
+        status: купил
+      - name: Разработка требований к программному обеспечению
+        author: К. Вигерс
+        link: https://bmm.ru/books/details/71487/
+        status: купил
+      - name: Быстрая разработка программ
+        author: Р. Мартин
+        link: https://www.ozon.ru/product/bystraya-razrabotka-programm-printsipy-primery-praktika-1573723/?sh=ULLX8JPwPQ
+
+      - name: Искусство программирования
+        children:
+          - name: Основные алгоритмы (том 1)
+            author: Д. Кнут
+            link: https://www.bgshop.ru/Catalog/GetFullDescription?id=10559640&type=1
+            status: купил
+          - name: Получисленные алгоритмы (том 2)
+            author: Д. Кнут
+            link: https://www.bgshop.ru/Catalog/GetFullDescription?id=10561849&type=1
+            status: купил
+          - name: Сортировка и поиск (том 3)
+            author: Д. Кнут
+            link: https://www.bgshop.ru/Catalog/GetFullDescription?id=267433&type=1
+            status: купил
+          - name: Комбинаторные алгоритмы часть 1 (том 4А)
+            author: Д. Кнут
+            link: https://www.bgshop.ru/Catalog/GetFullDescription?id=10551996&type=1
+            status: купил
+
+      - name: Архитектура
+        children:
+          - name: Чистая архитектура
+            author: Р. Мартин
+            link: https://bmm.ru/books/details/112412/
+            status: прочитал
+          - name: Паттерны проектирования
+            author: Э. Фримен
+            link: https://bmm.ru/books/details/120458/
+            status: купил
+          - name: System Design (подготовка к сложному интервью)
+            author: А. Сюй
+            link: https://bmm.ru/books/details/164975/
+            status: прочитал
+          - name: Шаблоны корпоративных приложений
+            author: М. Фаулер
+            link: https://bmm.ru/books/details/54433/
+            status: купил
+
+      - name: Код
+        children:
+          - name: "Рефакторинг: улучшение проекта существующего кода"
+            author: М. Фаулер
+            link: https://bmm.ru/books/details/33559/
+            status: купил
+          - name: "Чистый код: создание, анализ и рефакторинг"
+            author: Р. Мартин
+            link: https://bmm.ru/books/details/75978/
+            status: купил
+
+      - name: Тестирование
+        children:
+          - name: "Экстремальное программирование: разработка через тестирование"
+            author: К. Бэк
+            link: https://bmm.ru/books/details/120390/
+
+      - name: Гибкая разработка
+        children:
+          - name: Scrum Революционный метод управления проектами
+            author: Д. Сазерленд
+            link: https://www.mann-ivanov-ferber.ru/books/scrum/
+            status: прочитал
+          - name: Управление продуктом в Scrum
+            author: Р. Пихлер
+            link: https://www.mann-ivanov-ferber.ru/books/upravlenie-produktom-v-scrum/
+            status: прочитал
+          - name: Чистый Agile. Основы гибкости
+            author: Р. Мартин
+            link: https://bmm.ru/books/details/196729/
+            status: купил
+
+      - name: API
+        children:
+          - name: Irresistible APIs
+            author: K. Hunter
+            link: https://www.manning.com/books/irresistible-apis
+            status: прочитал
+
+      - name: Задачи
+        children:
+          - name: Карьера программиста 150 тестовых заданий
+            author: Г. Макдауэлл
+            link: https://www.combook.ru/product/10377002/
+            status: купил
+          - name: Exercises for Programmers
+            author: B. Hogan
+            link: https://pragprog.com/titles/bhwb/exercises-for-programmers/
+            status: купил
+
+      - name: Языки
+        children:
+            - name: "Компиляторы: принципы, технологии и инструментарий"
+              author: А. Ахо, М. Лам
+              link: https://bmm.ru/books/details/20125/
+            - name: Python
+              children:
+                - name: Стандартная библиотека Python 3. Справочник с примерами
+                  author: Х. Даг
+                  link: https://bmm.ru/books/details/54559/
+                  status: купил
+                - name: Чистый Python
+                  author: Д. Бейдер
+                  link: https://bmm.ru/books/details/75828/
+                  status: читаю
+                - name: "Django 3.0 практика создания веб-сайтов на Python"
+                  author: В. Дронов
+                  link: https://bmm.ru/books/details/71495/
+                  status: купил
+                - name: Django for beginners
+                  author: W. Vincent
+                  link: https://www.amazon.com/Django-Beginners-Learn-web-development/dp/1980377898
+                  status: купил
+                - name: Django for professional production websites with Python & Django
+                  author: W. Vincent
+                  link: https://www.amazon.com/Django-Professionals-Production-websites-Python/dp/1735467235
+                  status: купил
+                - name: Django for APIs build Web APIs with Python & Django
+                  author: W. Vincent
+                  link: https://www.amazon.com/Django-APIs-Build-web-Python/dp/1093633948
+                  status: купил
+                - name: Pandas Brain Teasers
+                  author: M. Tebeka
+                  link: https://pragprog.com/titles/d-pandas/pandas-brain-teasers/
+                - name: "Однострочники Python: лаконичный и содержательный код"
+                  author: К. Майер
+                  link: https://bmm.ru/books/details/127160/
+
+            - name: JavaScript
+              children:
+                - name: Functional Programming in JavaScript
+                  author: L. Altencio
+                  link: https://www.manning.com/books/functional-programming-in-javascript
+                  status: прочитал
+                - name: Secrets of the JavaScript Ninja
+                  author: J. Resig, B. Bibeault, J. Maras
+                  link: https://www.manning.com/books/secrets-of-the-javascript-ninja-second-edition
+                  status: прочитал
+                - name: React in Action
+                  author: M. Thomas
+                  link: https://www.manning.com/books/react-in-action
+                  status: купил
+
+            - name: Java
+              children:
+                - name: Философия Java
+                  author: Б. Эккель
+                  link: https://bmm.ru/books/details/120398/
+                  status: купил
+                - name: Java concurrency на практике
+                  author: Б. Гетц
+                  link: https://bmm.ru/books/details/81691/
+                  status: купил
+                - name: Functional Programming in Java
+                  author: V. Subramaniam
+                  link: https://pragprog.com/titles/vsjava8/functional-programming-in-java/
+                  status: купил
+
+            - name: Erlang
+              children:
+                - name: Программирование в Erlang
+                  author: Ф Чезарини, С. Томпсон
+                  link: https://dmkpress.com/catalog/computer/programming/functional/978-5-94074-617-1/
+                  status: прочитал
+                - name: Проектирование масштабируемых систем с помощью Erlang/OTP
+                  author: Ф Чезарини
+                  link: https://www.combook.ru/product/11804376/
+                  status: прочитал
+
+            - name: Elixir
+              children:
+                - name: Programming Elixir 1.6
+                  author: D. Thomas
+                  link: https://pragprog.com/titles/elixir16/programming-elixir-1-6/
+                  status: прочитал
+                - name: Programming Phoenix 1.4
+                  author: C. McCord, B. Tate, J. Valim
+                  link: https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/
+                  status: прочитал
+                - name: Programming Ecto
+                  author: D. Wilson, E. Meadows-Jönsson
+                  link: https://www.pragprog.com/titles/wmecto/programming-ecto/
+                  status: прочитал
+                - name: Adopting Elixir
+                  author: B. Marx, J. Valim, B. Tate
+                  link: https://www.pragprog.com/titles/tvmelixir/adopting-elixir/
+                  status: прочитал
+                - name: Learn Functional Programming with Elixir
+                  author: U. Almeida
+                  link: https://www.pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/
+                  status: прочитал
+                - name: Functional Web Development with Elixir, OTP, and Phoenix
+                  author: L. Halvorsen
+                  link: https://www.pragprog.com/titles/lhelph/functional-web-development-with-elixir-otp-and-phoenix/
+                  status: прочитал
+                - name: Designing Elixir Systems with OTP
+                  author: J. Gray, B. Tate
+                  link: https://www.pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/
+                  status: прочитал
+                - name: Elixir in Action
+                  author: S. Jurić
+                  link: https://www.manning.com/books/elixir-in-action-second-edition
+                  status: прочитал
+                - name: Metaprogramming Elixir
+                  author: C. McCord
+                  link: https://www.pragprog.com/titles/cmelixir/metaprogramming-elixir/
+                  status: купил
+                - name: Programming Phoenix LiveView
+                  author: B. Tate, S. DeBenedetto
+                  link: https://www.pragprog.com/titles/liveview/programming-phoenix-liveview/
+                - name: Concurrent Data Processing in Elixir
+                  author: S. Gospodinov
+                  link: https://www.pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/
+                - name: Property-Based Testing with PropEr, Erlang, and Elixir
+                  author: F. Heberts
+                  link: https://www.pragprog.com/titles/fhproper/property-based-testing-with-proper-erlang-and-elixir/
+                  status: купил
+                - name: Testing Elixir
+                  author: A. Leopardi, J. Matthias
+                  link: https://www.pragprog.com/titles/lmelixir/testing-elixir/
+                - name: Genetic Algorithms in Elixir
+                  author: S. Moriarity
+                  link: https://www.pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/
+                - name: Real-Time Phoenix
+                  author: S. Bussey
+                  link: https://www.pragprog.com/titles/sbsockets/real-time-phoenix/
+                - name: Exploring Graphs with Elixir
+                  author: T. Hammond
+                  link: https://www.pragprog.com/titles/thgraphs/exploring-graphs-with-elixir/
+                - name: Craft GraphQL APIs in Elixir with Absinthe
+                  author: B. Williams, B. Wilson
+                  link: https://www.pragprog.com/titles/wwgraphql/craft-graphql-apis-in-elixir-with-absinthe/
+                  status: купил
+
+            - name: R
+              children:
+                - name: R in Action
+                  author: R. Kabacoff
+                  link: https://www.manning.com/books/r-in-action-second-edition
+                  status: купил
+
+            - name: Elm
+              children:
+                - name: Elm in Action
+                  author: R. Feldman
+                  link: https://www.manning.com/books/elm-in-action
+                  status: купил
+
+  - name: Data Science
+    children:
+      - name: Роман с Data Science. Как монетизировать большие данные
+        author: Р. Зыков
+        link: https://www.litres.ru/roman-zykov/roman-s-data-science-kak-monetizirovat-bolshie-dannye/
+        status: прочитал
+      - name: Грокаем глубокое обучение
+        author: Э. Траск
+        link: https://bmm.ru/books/details/75963/
+        status: купил
+
+  - name: Визуализация
+    children:
+      - name: "Data Points: Visualization That Means Something"
+        author: N. Yau
+        link: https://www.amazon.com/Data-Points-Visualization-Means-Something/dp/111846219X
+        status: купил
+      - name: "Visualize This: The FlowingData Guide to Design, Visualization, and Statistics"
+        author: N. Yau
+        link: https://www.amazon.com/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889
+        status: купил
+
+  - name: Контейнеризация
+    children:
+      - name: Docker in Action
+        author: J. Nickoloff, S. Kuenzli
+        link: https://www.manning.com/books/docker-in-action-second-edition
+        status: прочитал
+      - name: Docker in Practice
+        author: I. Miell, A. Sayers
+        link: https://www.manning.com/books/docker-in-practice-second-edition
+        status: купил
+
+  - name: История
+    children:
+      - name: Читаем Тьюринга
+        author: Петцольд Ч.
+        link: https://dmkpress.com/catalog/computer/software_development/978-5-97060-010-8/
+        status: читаю
+      - name: Становление программирования в СССР
+        author: А.П. Ершов, М.Р. Шура-Бура
+        link: http://ershov.iis.nsk.su/ru/foundation/preprint13
+        status: читаю
+      - name: Введение в теоретическое программирование. Беседы о методе
+        author: А.П. Ершов
+        link: http://ershov.iis.nsk.su/ru/node/801528
