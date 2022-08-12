@@ -18,7 +18,8 @@
       return {
           tab: null,
           listOfCSBooks: null,
-          error: null
+          error: null,
+          tree_exists: false
         }
       },
     created() {
@@ -38,27 +39,31 @@
         this.error = this.listOfCSBooks = null
         this.loading = true
 
-        fetch('/data/cs-books.yaml').then((response) => {
-          return response.text().then((data) => {
+        if (!this.tree_exists) {
+          fetch('/data/cs-books.yaml').then((response) => {
+            return response.text().then((data) => {
 
-            const listOfCSBooks = yaml.load(data)
-            const chart = Tree(listOfCSBooks, {
-              tree: d3.cluster,
-              label: d => d.name,
-              title: d => `[${d.status}] ${d.name}${d.author ? ' - ' + d.author : ''}`, // hover text
-              link: d => d.link,
-              width: 1400,
-              height: 1400,
-              margin: 300,
-              stroke: '#0040ff'
-            });
+              const listOfCSBooks = yaml.load(data)
+              const chart = Tree(listOfCSBooks, {
+                tree: d3.cluster,
+                label: d => d.name,
+                title: d => `[${d.status}] ${d.name}${d.author ? ' - ' + d.author : ''}`, // hover text
+                link: d => d.link,
+                width: 1400,
+                height: 1400,
+                margin: 300,
+                stroke: '#0040ff'
+              });
 
-            const div = document.getElementById('tree');
-            div.appendChild(chart);
-          }).catch((err) => {
-            this.error = err.toString()
+              const div = document.getElementById('tree');
+              div.appendChild(chart);
+
+              this.tree_exists = true
+            }).catch((err) => {
+              this.error = err.toString()
+            })
           })
-        })
+        }
       }
     }
   }
