@@ -58,6 +58,9 @@ children:
         author: Т. Кайт
         link: https://bmm.ru/books/details/22655/
         status: прочитал
+      - name: Распределенные данные. Алгоритмы работы современных систем хранения информации
+        author: А. Петров
+        link: https://bmm.ru/books/details/76034/
 
   - name: Управление
     children:
@@ -162,6 +165,9 @@ children:
             author: М. Фаулер
             link: https://bmm.ru/books/details/54433/
             status: купил
+          - name: Высоконагруженные приложения
+            author: М. Клеппман
+            link: https://bmm.ru/books/details/141330/
 
       - name: Код
         children:
@@ -377,10 +383,23 @@ children:
         author: Р. Зыков
         link: https://www.litres.ru/roman-zykov/roman-s-data-science-kak-monetizirovat-bolshie-dannye/
         status: прочитал
-      - name: Грокаем глубокое обучение
-        author: Э. Траск
-        link: https://bmm.ru/books/details/75963/
-        status: купил
+
+  - name: AI
+    children:
+    - name: Machine Learning
+      children:
+        - name: Deep Learning
+          children:
+            - name: Грокаем глубокое обучение
+              author: Э. Траск
+              link: https://bmm.ru/books/details/75963/
+              status: купил
+            - name: Deep Learning Book
+              author: Ian Goodfellow
+              link: https://www.deeplearningbook.org/
+            - name: Глубокое обучение
+              author: С. Николенко, А. Кадурин, Е. Архангельская
+              link: https://bmm.ru/books/details/120419/
 
   - name: Визуализация
     children:
