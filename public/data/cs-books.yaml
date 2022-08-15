@@ -127,6 +127,9 @@ children:
       - name: Быстрая разработка программ
         author: Р. Мартин
         link: https://www.ozon.ru/product/bystraya-razrabotka-programm-printsipy-primery-praktika-1573723/?sh=ULLX8JPwPQ
+      - name: Getting Real. The smarter, faster, easier way to build a successful web application
+        author: 37signals
+        link: https://basecamp.com/gettingreal
 
       - name: Искусство программирования
         children:
