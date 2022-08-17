@@ -260,6 +260,30 @@ children:
                   author: К. Майер
                   link: https://bmm.ru/books/details/127160/
 
+            - name: Go
+              children:
+                - name: Head First. Изучаем Go
+                  author: Д. Макгаврен
+                  link: https://bmm.ru/books/details/19665/
+                - name: Язык Go для начинающих
+                  author: М. Жашкевич
+                  link:
+                - name: Go на практике
+                  author: М. Фарина, М. Батчер
+                  link: https://www.labirint.ru/books/566828/
+                - name: Язык программирования Go
+                  author: К. Донован
+                  link: https://bmm.ru/books/details/22634/
+                - name: "Go: идиомы и паттерны проектирования"
+                  author: Д. Боднер
+                  link: https://www.piter.com/product/go-idiomy-i-patterny-proektirovaniya
+                - name: Профессиональный Go
+                  author: А. Фриман
+                  link:
+                - name: Golang для профи
+                  author: М. Цукалос
+                  link: https://bmm.ru/books/details/7419/
+
             - name: JavaScript
               children:
                 - name: Functional Programming in JavaScript
