@@ -44,7 +44,7 @@
         this.error = this.books = null;
         // this.loading = true
 
-        fetch('/data/cs-books.yaml').then((response) => {
+        fetch('/data/cs-books.yaml', {cache: "no-cache"}).then((response) => {
           return response.text().then((raw_data) => {
 
             this.books = yaml.load(raw_data);
