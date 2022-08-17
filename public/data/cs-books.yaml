@@ -265,6 +265,7 @@ children:
               - name: Head First. Изучаем Go
                 author: Д. Макгаврен
                 link: https://bmm.ru/books/details/19665/
+                status: читаю
               - name: Язык Go для начинающих
                 author: М. Жашкевич
                 link:
