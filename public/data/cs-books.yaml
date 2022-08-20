@@ -269,6 +269,7 @@ children:
               - name: Язык Go для начинающих
                 author: М. Жашкевич
                 link:
+                status: прочитал
               - name: Go на практике
                 author: М. Фарина, М. Батчер
                 link: https://www.labirint.ru/books/566828/
