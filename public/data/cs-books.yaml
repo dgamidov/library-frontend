@@ -285,6 +285,9 @@ children:
               - name: Golang для профи
                 author: М. Цукалос
                 link: https://bmm.ru/books/details/7419/
+              - name: "gRPC: запуск и эксплуатация облачных приложений. Go и Java для Docker и Kubernetes"
+                author: К. Индрасири, Д. Курупу
+                link: https://bmm.ru/books/details/75967/
 
           - name: JavaScript
             children:
