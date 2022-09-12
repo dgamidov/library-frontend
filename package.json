@@ -7,8 +7,8 @@
     "build-dev": "vue-cli-service build --mode=development",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy-test": "aws --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive --exclude .DS_Store dist/ s3://library-test/",
-    "deploy": "aws --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive --exclude .DS_Store dist/ s3://library/"
+    "deploy-test": "aws --profile personal --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive --exclude .DS_Store dist/ s3://library-test/",
+    "deploy": "aws --profile personal --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive --exclude .DS_Store dist/ s3://library/"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
