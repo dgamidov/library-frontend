@@ -2,6 +2,15 @@
   <v-container id="viewCSBooks">
     <div class="text-h2">Книги по CS</div>
 
+    <v-radio-group
+        v-if="false"
+        v-model="this.chartType"
+        mandatory
+    >
+      <v-radio label="Default" value="default"></v-radio>
+      <v-radio label="Circle" value="circle"></v-radio>
+    </v-radio-group>
+
     <div class="text-center">
       <svg></svg>
     </div>
@@ -17,6 +26,7 @@
 
     data() {
       return {
+          chartType: 'default',
           tab: null,
           error: null,
           books: null,
@@ -27,14 +37,14 @@
     },
     methods: {
       getNodeColor(status) {
-        // https://encycolorpedia.ru/ffbf00s
-        if (status == 'прочитал') {
+        // https://encycolorpedia.ru/10e030
+        if (status === 'прочитал') {
           return '#10e030';
-        } else if (status == 'читаю') {
+        } else if (status === 'читаю') {
           return '#ff00ff';
-        } else if (status == 'купил') {
+        } else if (status === 'купил') {
           return '#ffd700';
-        } else if (status == 'перечитать') {
+        } else if (status === 'перечитать') {
           return '#00d8ff';
         } else {
           return '#555';
@@ -64,7 +74,7 @@
             const strokeLinejoin = null;
             const strokeWidth = null;
 
-            const separation = tree === d3.tree ? (a, b) => (a.parent == b.parent ? 1 : 2) / a.depth : (a, b) => a.parent == b.parent ? 1 : 2;
+            const separation = tree === d3.tree ? (a, b) => (a.parent === b.parent ? 1 : 2) / a.depth : (a, b) => a.parent === b.parent ? 1 : 2;
             const linkTarget = "_blank";
             const marginTop = margin; // top margin, in pixels
             const marginRight = margin; // right margin, in pixels
@@ -82,11 +92,10 @@
 
             // Compute labels and titles.
             const descendants = root.descendants();
-            const L = label == null ? null : descendants.map(d => label(d.data, d));
+            const L = !label ? null : descendants.map(d => label(d.data, d));
 
             // Compute the layout.
             tree().size([2 * Math.PI, radius]).separation(separation)(root);
-
 
             const svg = d3.select("svg")
                 .attr("viewBox", [-marginLeft - radius, -marginTop - radius, width, height])
@@ -114,15 +123,15 @@
               .selectAll("a")
               .data(root.descendants())
               .join("a")
-                .attr("xlink:href", link == null ? null : d => link(d.data, d))
-                .attr("target", link == null ? null : linkTarget)
+                .attr("xlink:href", !link ? null : d => link(d.data, d))
+                .attr("target", !link ? null : linkTarget)
                 .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`);
 
             node.append("circle")
                 .attr("fill", d => d.children ? stroke : this.getNodeColor(d.data.status))
                 .attr("r", r);
 
-            if (title != null) node.append("title")
+            if (title) node.append("title")
                 .text(d => title(d.data, d));
 
             if (L) node.append("text")
