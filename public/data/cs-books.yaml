@@ -284,13 +284,13 @@ children:
                 author: Д. Боднер
                 link: https://www.piter.com/product/go-idiomy-i-patterny-proektirovaniya
                 status: прочитал
-              - name: Профессиональный Go
-                author: А. Фриман
-                link: https://www.amazon.com/Pro-Go-Complete-Programming-Efficient/dp/1484273540
               - name: Golang для профи
                 author: М. Цукалос
                 link: https://bmm.ru/books/details/7419/
                 status: читаю
+              - name: Профессиональный Go
+                author: А. Фриман
+                link: https://www.amazon.com/Pro-Go-Complete-Programming-Efficient/dp/1484273540
               - name: Black Hat Go. Программирование для хакеров и пентестеров
                 author: Стил Т., Паттен К., Коттманн Д.
                 link: https://bmm.ru/books/details/426188/
