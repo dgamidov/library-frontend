@@ -39,6 +39,10 @@ children:
         author: Э. Таненбаум
         link: https://www.litres.ru/endru-tanenbaum/sovremennye-operacionnye-sistemy-42227045
         status: купил
+      - name: "Ядро Linux: описание процесса разработки"
+        author: Лав Р.
+        link: https://bmm.ru/books/details/58646/
+        status: купил
       - name: Внутреннее устройство Linux
         author: Б. Уорд
         link: https://www.piter.com/collection/linux/product/vnutrennee-ustroystvo-linux-2
@@ -82,7 +86,7 @@ children:
       - name: Конкретная математика
         author: Д. Кнут
         link: https://bmm.ru/books/details/53695/
-        status: читаю
+        status: купил
 
   - name: Алгоритмы
     children:
@@ -171,6 +175,7 @@ children:
           - name: Высоконагруженные приложения
             author: М. Клеппман
             link: https://bmm.ru/books/details/141330/
+            status: купил
 
       - name: Код
         children:
@@ -227,6 +232,7 @@ children:
           - name: "Компиляторы: принципы, технологии и инструментарий"
             author: А. Ахо, М. Лам
             link: https://bmm.ru/books/details/20125/
+            status: купил
           - name: Python
             children:
               - name: Стандартная библиотека Python 3. Справочник с примерами
@@ -236,7 +242,7 @@ children:
               - name: Чистый Python
                 author: Д. Бейдер
                 link: https://bmm.ru/books/details/75828/
-                status: читаю
+                status: прочитал
               - name: "Django 3.0 практика создания веб-сайтов на Python"
                 author: В. Дронов
                 link: https://bmm.ru/books/details/71495/
@@ -270,9 +276,6 @@ children:
                 author: М. Жашкевич
                 link:
                 status: прочитал
-              - name: Go на практике
-                author: М. Фарина, М. Батчер
-                link: https://www.labirint.ru/books/566828/
               - name: Язык программирования Go
                 author: К. Донован
                 link: https://bmm.ru/books/details/22634/
@@ -280,12 +283,17 @@ children:
               - name: "Go: идиомы и паттерны проектирования"
                 author: Д. Боднер
                 link: https://www.piter.com/product/go-idiomy-i-patterny-proektirovaniya
+                status: прочитал
               - name: Профессиональный Go
                 author: А. Фриман
                 link:
               - name: Golang для профи
                 author: М. Цукалос
                 link: https://bmm.ru/books/details/7419/
+                status: читаю
+              - name: Black Hat Go. Программирование для хакеров и пентестеров
+                author: Стил Т., Паттен К., Коттманн Д.
+                link: https://bmm.ru/books/details/426188/
               - name: "gRPC: запуск и эксплуатация облачных приложений. Go и Java для Docker и Kubernetes"
                 author: К. Индрасири, Д. Курупу
                 link: https://bmm.ru/books/details/75967/
@@ -296,10 +304,13 @@ children:
                 author: L. Altencio
                 link: https://www.manning.com/books/functional-programming-in-javascript
                 status: прочитал
-              - name: Secrets of the JavaScript Ninja
+              - name: Секреты JavaScript ниндзя
                 author: J. Resig, B. Bibeault, J. Maras
-                link: https://www.manning.com/books/secrets-of-the-javascript-ninja-second-edition
+                link: https://bmm.ru/books/details/59462/
                 status: прочитал
+              - name: Профессиональный TypeScript. Разработка масштабируемых JavaScript-приложений
+                author: Черный Б.
+                link: https://bmm.ru/books/details/430512/
               - name: React in Action
                 author: M. Thomas
                 link: https://www.manning.com/books/react-in-action
@@ -469,3 +480,6 @@ children:
       - name: Введение в теоретическое программирование. Беседы о методе
         author: А.П. Ершов
         link: http://ershov.iis.nsk.su/ru/node/801528
+      - name: Время UNIX. A History and a Memoir
+        author: К. Брайан
+        link: https://bmm.ru/books/details/197681/
