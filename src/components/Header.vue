@@ -4,7 +4,7 @@
       <v-col cols="12">
         <v-card>
           <v-tabs
-            background-color="deep-purple accent-4"
+            bg-color="deep-purple-accent-4"
             center-active
             dark
           >
