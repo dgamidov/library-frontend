@@ -65,6 +65,7 @@ children:
       - name: Распределенные данные. Алгоритмы работы современных систем хранения информации
         author: А. Петров
         link: https://bmm.ru/books/details/76034/
+        status: читаю
 
   - name: Управление
     children:
@@ -232,7 +233,6 @@ children:
           - name: "Компиляторы: принципы, технологии и инструментарий"
             author: А. Ахо, М. Лам
             link: https://bmm.ru/books/details/20125/
-            status: купил
           - name: Python
             children:
               - name: Стандартная библиотека Python 3. Справочник с примерами
@@ -294,6 +294,7 @@ children:
               - name: Black Hat Go. Программирование для хакеров и пентестеров
                 author: Стил Т., Паттен К., Коттманн Д.
                 link: https://bmm.ru/books/details/426188/
+                status: купил
               - name: "gRPC: запуск и эксплуатация облачных приложений. Go и Java для Docker и Kubernetes"
                 author: К. Индрасири, Д. Курупу
                 link: https://bmm.ru/books/details/75967/
