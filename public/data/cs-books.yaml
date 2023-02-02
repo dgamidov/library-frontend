@@ -194,6 +194,7 @@ children:
           - name: "Экстремальное программирование: разработка через тестирование"
             author: К. Бэк
             link: https://bmm.ru/books/details/120390/
+            status: купил
 
       - name: Гибкая разработка
         children:
@@ -233,6 +234,7 @@ children:
           - name: "Компиляторы: принципы, технологии и инструментарий"
             author: А. Ахо, М. Лам
             link: https://bmm.ru/books/details/20125/
+            status: купил
           - name: Python
             children:
               - name: Стандартная библиотека Python 3. Справочник с примерами
