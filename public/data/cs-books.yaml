@@ -194,7 +194,7 @@ children:
           - name: "Экстремальное программирование: разработка через тестирование"
             author: К. Бэк
             link: https://bmm.ru/books/details/120390/
-            status: купил
+            status: читаю
 
       - name: Гибкая разработка
         children:
@@ -289,7 +289,7 @@ children:
               - name: Golang для профи
                 author: М. Цукалос
                 link: https://bmm.ru/books/details/7419/
-                status: читаю
+                status: прочитал
               - name: Профессиональный Go
                 author: А. Фриман
                 link: https://www.amazon.com/Pro-Go-Complete-Programming-Efficient/dp/1484273540
