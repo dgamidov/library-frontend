@@ -194,7 +194,7 @@ children:
           - name: "Экстремальное программирование: разработка через тестирование"
             author: К. Бэк
             link: https://bmm.ru/books/details/120390/
-            status: читаю
+            status: прочитал
 
       - name: Гибкая разработка
         children:
