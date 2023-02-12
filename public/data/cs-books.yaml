@@ -32,6 +32,7 @@ children:
       - name: Занимательная электроника
         author: Ю. Ревич
         link: https://bmm.ru/books/details/71582/
+        status: купил
 
   - name: Операционные системы
     children:
