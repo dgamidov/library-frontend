@@ -14,9 +14,9 @@ children:
   - name: Железо
     children:
       - name: Занимательная электроника
-          author: Ю. Ревич
-          link: https://bmm.ru/books/details/71582/
-          status: купил
+        author: Ю. Ревич
+        link: https://bmm.ru/books/details/71582/
+        status: купил
       - name: Архитектура компьютера
         author: Э. Таненбаум, Т. Остин
         link: https://bmm.ru/books/details/141325/
