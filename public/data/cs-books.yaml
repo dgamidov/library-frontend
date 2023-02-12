@@ -13,6 +13,10 @@ children:
 
   - name: Железо
     children:
+      - name: Занимательная электроника
+          author: Ю. Ревич
+          link: https://bmm.ru/books/details/71582/
+          status: купил
       - name: Архитектура компьютера
         author: Э. Таненбаум, Т. Остин
         link: https://bmm.ru/books/details/141325/
@@ -28,10 +32,6 @@ children:
       - name: "Цифровая схемотехника и архитектура компьютера: ARM"
         author: Д. Харрис, С. Харрис
         link: https://bmm.ru/books/details/55422/
-        status: купил
-      - name: Занимательная электроника
-        author: Ю. Ревич
-        link: https://bmm.ru/books/details/71582/
         status: купил
 
   - name: Операционные системы
