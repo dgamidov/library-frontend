@@ -350,11 +350,11 @@ children:
 
           - name: Elixir
             children:
-              - name: Programming Elixir 1.6
+              - name: Programming Elixir
                 author: D. Thomas
                 link: https://pragprog.com/titles/elixir16/programming-elixir-1-6/
                 status: прочитал
-              - name: Programming Phoenix 1.4
+              - name: Programming Phoenix
                 author: C. McCord, B. Tate, J. Valim
                 link: https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/
                 status: прочитал
