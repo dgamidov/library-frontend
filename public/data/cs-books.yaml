@@ -177,6 +177,10 @@ children:
             author: М. Фаулер
             link: https://bmm.ru/books/details/54433/
             status: купил
+          - name: Масштабирование приложений. Выращивание сложных систем
+            author: Атчисон Ли
+            link: https://www.labirint.ru/books/609683/
+            status: прочитал
           - name: Высоконагруженные приложения
             author: М. Клеппман
             link: https://bmm.ru/books/details/141330/
