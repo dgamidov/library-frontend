@@ -311,6 +311,13 @@ children:
                 author: К. Индрасири, Д. Курупу
                 link: https://bmm.ru/books/details/75967/
 
+          - name: Rust
+            children:
+              - name: Программирование на Rust
+                author: Клабник С., Николс К.
+                link: https://www.piter.com/collection/yazyki-programmirovaniya/product/programmirovanie-na-rust
+                status: купил
+
           - name: JavaScript
             children:
               - name: Functional Programming in JavaScript
