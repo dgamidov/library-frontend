@@ -286,6 +286,10 @@ children:
                 author: М. Жашкевич
                 link:
                 status: прочитал
+              - name: Go 101
+                author: go101
+                link: https://go101.org/article/101.html
+                status: купил
               - name: Язык программирования Go
                 author: К. Донован
                 link: https://bmm.ru/books/details/22634/
@@ -298,6 +302,18 @@ children:
                 author: М. Цукалос
                 link: https://bmm.ru/books/details/7419/
                 status: прочитал
+              - name: Go Optimizations 101
+                author: go101
+                link: https://go101.org/optimizations/101.html
+                status: купил
+              - name: Go Details & Tips 101
+                author: go101
+                link: https://go101.org/details-and-tips/101.html
+                status: купил
+              - name: Go Generics 101
+                author: go101
+                link: https://go101.org/generics/101.html
+                status: купил
               - name: Профессиональный Go
                 author: А. Фриман
                 link: https://www.amazon.com/Pro-Go-Complete-Programming-Efficient/dp/1484273540
