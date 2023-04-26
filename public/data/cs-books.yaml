@@ -2,6 +2,9 @@ name: Computer Science
 children:
   - name: Обзор
     children:
+      - name: "Код: тайный язык информатики"
+        author: Петцольд Ч.
+        link: https://www.mann-ivanov-ferber.ru/books/kod-tajnyij-yazyik-informatiki
       - name: Теоретический минимум по CS. Все что нужно программисту и разработчику
         author: Фило Ф.В.
         link: https://bmm.ru/books/details/190677
