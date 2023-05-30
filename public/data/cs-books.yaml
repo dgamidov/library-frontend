@@ -301,6 +301,10 @@ children:
                 author: Д. Боднер
                 link: https://www.piter.com/product/go-idiomy-i-patterny-proektirovaniya
                 status: прочитал
+              - name: 100 Go Mistakes and How to Avoid Them
+                author: Teiva Harsanyi
+                link: https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them
+                status: читаю
               - name: Golang для профи
                 author: М. Цукалос
                 link: https://bmm.ru/books/details/7419/
