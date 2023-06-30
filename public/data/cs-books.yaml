@@ -5,6 +5,9 @@ children:
       - name: "Код: тайный язык информатики"
         author: Петцольд Ч.
         link: https://www.mann-ivanov-ferber.ru/books/kod-tajnyij-yazyik-informatiki
+      - name: "Тайная жизнь программ. Как создать код, который понравится вашему компьютеру"
+        author: "Стейнхарт Д."
+        link: https://www.piter.com/collection/bestsellery-no-starch-press/product/taynaya-zhizn-programm-kak-sozdat-kod-kotoryy-ponravitsya-vashemu-kompyuteru
       - name: Теоретический минимум по CS. Все что нужно программисту и разработчику
         author: Фило Ф.В.
         link: https://bmm.ru/books/details/190677
