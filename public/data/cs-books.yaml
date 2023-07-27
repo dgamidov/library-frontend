@@ -8,6 +8,7 @@ children:
       - name: "Тайная жизнь программ. Как создать код, который понравится вашему компьютеру"
         author: "Стейнхарт Д."
         link: https://www.piter.com/collection/bestsellery-no-starch-press/product/taynaya-zhizn-programm-kak-sozdat-kod-kotoryy-ponravitsya-vashemu-kompyuteru
+        status: прочитал
       - name: Теоретический минимум по CS. Все что нужно программисту и разработчику
         author: Фило Ф.В.
         link: https://bmm.ru/books/details/190677
@@ -134,6 +135,10 @@ children:
       - name: Делай как в Google
         author: Т. Винтерс, Т. Маншрек, Х. Райт
         link: https://bmm.ru/books/details/76013/
+        status: купил
+      - name: Современная программная инженерия. ПО в эпоху эджайла и непрерывного развертывания
+        author: Фарли Д.
+        link: https://www.piter.com/collection/all/product/sovremennaya-programmnaya-inzheneriya-po-v-epohu-edzhayla-i-nepreryvnogo-razvertyvaniya
         status: купил
       - name: Разработка требований к программному обеспечению
         author: К. Вигерс
@@ -357,6 +362,7 @@ children:
               - name: Профессиональный TypeScript. Разработка масштабируемых JavaScript-приложений
                 author: Черный Б.
                 link: https://bmm.ru/books/details/430512/
+                status: купил
               - name: React in Action
                 author: M. Thomas
                 link: https://www.manning.com/books/react-in-action
