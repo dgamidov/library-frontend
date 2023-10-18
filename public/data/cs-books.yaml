@@ -73,14 +73,14 @@ children:
         author: Дейт
         link: https://bmm.ru/books/details/194675/
         status: купил
-      - name: Oracle для профессионалов
-        author: Т. Кайт
-        link: https://bmm.ru/books/details/22655/
-        status: прочитал
       - name: Распределенные данные. Алгоритмы работы современных систем хранения информации
         author: А. Петров
         link: https://bmm.ru/books/details/76034/
         status: читаю
+      - name: Oracle для профессионалов
+        author: Т. Кайт
+        link: https://bmm.ru/books/details/22655/
+        status: прочитал
 
   - name: Управление
     children:
