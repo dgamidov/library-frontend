@@ -43,6 +43,10 @@ children:
         author: Д. Харрис, С. Харрис
         link: https://bmm.ru/books/details/55422/
         status: купил
+      - name: "Руководство по эффективному программированию на платформе «Эльбрус»"
+        author: М. Нейман-заде, С. Королёв
+        link: http://ftp.altlinux.org/pub/people/mike/elbrus/docs/elbrus_prog/html/
+        status: купил
 
   - name: Операционные системы
     children:
