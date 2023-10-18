@@ -528,10 +528,14 @@ children:
       - name: Становление программирования в СССР
         author: А.П. Ершов, М.Р. Шура-Бура
         link: http://ershov.iis.nsk.su/ru/foundation/preprint13
-        status: читаю
+        status: прочитал
       - name: Введение в теоретическое программирование. Беседы о методе
         author: А.П. Ершов
         link: http://ershov.iis.nsk.su/ru/node/801528
+      - name: Теория программирования и вычислительные системы
+        author: А.П. Ершов
+        link: https://www.computer-museum.ru/books/ershov_teoriya.pdf
+        status: прочитал
       - name: Время UNIX. A History and a Memoir
         author: К. Брайан
         link: https://bmm.ru/books/details/197681/
